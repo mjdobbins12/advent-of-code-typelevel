@@ -14,7 +14,7 @@ object Day1 {
       * @return The fuel required to to launch the module
       */
     def fuel(mass: Int): Int = {
-      ???
+      mass / 3 - 2
     }
 
     /** Calculates the sum of the fuel required to launch each module of a given mass
@@ -22,9 +22,7 @@ object Day1 {
       * @param masses The masses of each module
       * @return The sum of the fuel required to launch each module
       */
-    def sumOfFuel(
-        masses: List[Int]
-    ): Int = {
+    def sumOfFuel(masses: List[Int]): Int = {
       ???
     }
 
