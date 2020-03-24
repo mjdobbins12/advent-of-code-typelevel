@@ -23,7 +23,7 @@ object Day1 {
       * @return The sum of the fuel required to launch each module
       */
     def sumOfFuel(masses: List[Int]): Int = {
-      ???
+      masses.map(fuel).fold(0)(_ + _)
     }
 
     // Use the two functions below to complete the exercise
